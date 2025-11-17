@@ -1,8 +1,6 @@
+# 1. On déclare d'abord les variables pour que Python les connaisse
 maVariable = 2
 MACONSTANTE = 3
-monTexte = "julien Code"
 
-print("--- Début Exercice 1 ---")
-print(f"La variable maVariable est {maVariable}")
-print(f"La constante MACONSTANTE est {MACONSTANTE}")
-print("--- Fin Exercice 1 ---")
+# 2. On utilise la fonction print() avec une f-string pour afficher les deux variables
+print(f"La variable est {maVariable} et la constante est {MACONSTANTE}")
